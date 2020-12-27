@@ -27,3 +27,29 @@ $fontsize = 16px
 $code_fontsize = 14px
 $toc_fontsize = 14px
 $lineheight = 1.8
+
+//顶部logo圆框、光晕
+.cover .cover__logo img {
+    max-width: 72px;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+    cursor: pointer 
+    transition: all 0.4s
+      &:hover {box-shadow:0 2px 6px 1px rgba(36,146,165,0.4) }
+}
+
+//友链卡片圆角
+.links-list .links-content .links-card {
+    border-radius: 0 0 5px 5px;
+}
+
+//首页文章卡片彩色光晕
+.post-entry
+   cursor: pointer
+   &:hover
+     box-shadow:0px 8px 15px rgba(36,146,165,0.4) !important
+     border-radius: 8px
+
+#artitalk_main #shuoshuo_content {
+    padding: 0px !important
+}
