@@ -1,7 +1,7 @@
 <% if (theme.meta.copyright.enable && page.copyright !== false) { %>
     <div class="post__license">
         <p>
-            <strong><%= __('post.copyright.author') %></strong><%= theme.meta.author.name %>
+            <strong><%= __('post.copyright.author') %></strong><a href="mailto:<%= theme.meta.author.mail %>"><%= theme.meta.author.name %></a>
         </p>
         <p>
             <strong>
