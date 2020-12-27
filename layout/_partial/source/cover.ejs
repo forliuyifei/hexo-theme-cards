@@ -13,8 +13,11 @@
         
         <% if (theme.cover.description) { %>
             <div class="cover__intro">
-                <%- markdown(theme.cover.description) %> 
+            <span id="jinrishici-sentence">既见君子 云胡不喜</span>
+             <!--首页头像下方文字   <%- markdown(theme.cover.description) %> 
+             --> 
             </div>
         <% } %>
     </div>
 <% } %>
+<script defer src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
